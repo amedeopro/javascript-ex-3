@@ -13,6 +13,9 @@ var cognomeUtente = prompt('Digita il tuo cognome');
 //inserisco il cognome nella lista
 listaCognomi.push(cognomeUtente);
 
+//metto in ordine alfabetico l'array
+
+var ordineAlfabetico = listaCognomi.sort();
 
 // creo una variabile che mi restituisca la posizione dell'ultimo elemento inserito
 var posizioneNuovoCognome = listaCognomi.indexOf(cognomeUtente);
